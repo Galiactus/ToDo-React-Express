@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "task": {
+    "todo": [
+      {
+        "id": 1,
+        "title": "Развернуть JSON Server",
+        "time": "29/05/2018 12:00"
+      },
+      {
+        "id": 2,
+        "title": "Изучить Vue",
+        "time": "20/06/2018 12:00"
+      },
+      {
+        "id": 3,
+        "title": "Румби",
+        "time": "24/06/2018 9:12"
+      }
+    ],
+    "author": {
+      "name": "Skorobogatov Kirill"
+    }
+  }
+}

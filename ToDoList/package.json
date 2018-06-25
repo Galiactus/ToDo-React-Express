@@ -1,0 +1,64 @@
+{
+  "scripts": {
+    "build": "webpack-dev-server",
+    "prod": "webpack --config webpack.production.babel.js",
+    "postinstall": "./node_modules/webpack/bin/webpack.js --config webpack.production.babel.js",
+    "start": "node --experimental-modules s.mjs",
+    "help": "echo 'это для хироку и все зависимости слиты в dependencies'"
+  },
+  "name": "reactdemo2018",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GossJS/reactDemo2018.git"
+  },
+  "version": "1.0.0",
+  "main": "./src/index.jsx",
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "DatePicker": "^2.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "express": "^4.16.3",
+    "json-server": "^0.14.0",
+    "material-ui": "^0.20.1",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-async-await": "^1.5.0",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "description": "REACT DEMO 2018",
+  "bugs": {
+    "url": "https://github.com/GossJS/reactDemo2018/issues"
+  },
+  "homepage": "https://github.com/GossJS/reactDemo2018#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.0.16",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15"
+  }
+}
